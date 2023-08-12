@@ -16,8 +16,4 @@ To find out more please visit:
 - THIS REPO IS STILL UNDER CONSTRUCTION
 - This is the repository for the Rebel Labs website! >>> 
 https://www.REBELLABS.wtf
-
-
-____________________________
-___________ $BON ___________
 ____________________________
