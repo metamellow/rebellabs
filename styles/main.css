@@ -1,0 +1,47 @@
+    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+    body {
+      background-color: black;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-family: 'Baloo 2', cursive;
+      color: #ff1694;
+      font-size: 36px;
+      margin-bottom: 0.1vw;
+    }
+
+    h2 {
+      font-family: 'Shadows into Light', cursive;
+      color: #ff1694;
+      font-size: 20px;
+      margin-bottom: 0.1vw;
+    }
+
+    h3 {
+      font-family: 'Shadows into Light', cursive;
+      color: #ff1694;
+      font-size: 14px;
+      margin-bottom: 0.1vw;
+    }
+
+    p {
+      font-family: 'Arcitects Daughter', cursive;
+      color: #ff1694;
+      font-size: 12px;
+      margin-bottom: 0.1vw;
+    }
+
+    .logo {
+      width: 40vw;
+      height: 40vw;
+    }
+
+    .ghost {
+      fill: #ff1694;
+    }
