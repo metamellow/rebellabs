@@ -7,31 +7,42 @@
       background-color: black;
       text-align: center;
       padding: 50px;
+      overflow: hidden;
+      position: relative; /* Add this line */
     }
+    
+    canvas {
+      position: absolute; /* Change this line */
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: -1; /* Add this line */
+    }
+    
 
     h1 {
-      font-family: 'Baloo 2', cursive;
+      font-family: 'Baloo 2';
       color: #ff1694;
       font-size: 36px;
       margin-bottom: 0.1vw;
     }
 
     h2 {
-      font-family: 'Shadows into Light', cursive;
+      font-family: 'Shadows into Light';
       color: #ff1694;
       font-size: 20px;
       margin-bottom: 0.1vw;
     }
 
     h3 {
-      font-family: 'Shadows into Light', cursive;
+      font-family: 'Shadows into Light';
       color: #ff1694;
       font-size: 14px;
       margin-bottom: 0.1vw;
     }
 
     p {
-      font-family: 'Arcitects Daughter', cursive;
+      font-family: 'Fredoka One';
       color: #ff1694;
       font-size: 12px;
       margin-bottom: 0.1vw;
