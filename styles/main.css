@@ -8,15 +8,15 @@
       text-align: center;
       padding: 50px;
       overflow: hidden;
-      position: relative; /* Add this line */
+      position: relative;
     }
     
     canvas {
-      position: absolute; /* Change this line */
+      position: absolute;
       top: 0;
       left: 0;
       pointer-events: none;
-      z-index: -1; /* Add this line */
+      z-index: -2;
     }
     
 
