@@ -25,6 +25,9 @@
       body {
         position: relative;
       }
+      canvas {
+        z-index: -1;
+      }
     }
   
     h1 {
