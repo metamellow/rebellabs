@@ -178,7 +178,148 @@
 <div class="contact">
 <div> <p> “let's talk about your future” </p></div>
 <div class="display"> 
-<button>talks now</button>
+<button id="openModalBtn" >talks now</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+<div> 
+  
+  <form action="mailto:matheus.merp@gmail.com" method="post" enctype="text/plain">
+    <!-- Categoria: Básico -->
+    <div class="form-group">
+      <div>
+        <img src="images/ghost_header.svg">
+      <p>Tell about your project</p>
+      </div>
+      
+      <div class="display">
+        <input type="text"   placeholder="name" id="name" name="name" required>
+        <input type="email"  placeholder="email" id="email" name="email" required>
+        <input type="text"  placeholder="project name" id="project" name="project" required>
+        <input type="text"  placeholder="discord" id="discord" name="discord">
+        <input type="text"  placeholder="twitter"id="twitter" name="twitter">
+      </div>
+      </div>
+
+    <!-- Categoria: Checkbox -->
+    <div class="form-group-check">
+      <div>
+        <p>select what you are planning to build</p>
+      </div>
+
+  <div class="checkdisplay">
+     
+        <label class="checkbox-container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          token
+      </label>
+      
+      <label class="checkbox-container">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        nft
+    </label>
+    
+    <label class="checkbox-container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      site
+  </label>
+  
+  <label class="checkbox-container">
+    <input type="checkbox">
+    <span class="checkmark"></span>
+    promo video
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  brand
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  comics
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  dapp
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  ilustration
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  3D art
+  </label>
+ 
+  </div>
+</div>
+
+<div class="form-group-check">
+  <div>
+    <p>select which blockchain you intend to build on</p>
+  </div>
+
+<div class="checkdisplay">
+ 
+    <label class="checkbox-container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      ethereum
+  </label>
+  
+  <label class="checkbox-container">
+    <input type="checkbox">
+    <span class="checkmark"></span>
+    polygon
+</label>
+
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  modulus
+</label>
+
+
+</div>
+</div>
+
+<div class="form-group-check"> 
+  <p> tell us about your project </p>
+  <input type="text" placeholder="Enter text..." class="description">
+
+</div>
+
+
+
+
+    <div>
+    <button type="submit">send</button>
+  </div>
+</form>
+
+</div>
+  
+  
+  </div>
+</div>
+
+
+
+
+
 <button class="b"> follow us </button>
 </div>
 
@@ -231,7 +372,7 @@
   
 
   <script src="./scripts/index.js" type="application/javascript"></script>
-
+  <script src="./scripts/modal.js" type="application/javascript"></script>
 </footer>
 
 </body>
