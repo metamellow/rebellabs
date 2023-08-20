@@ -19,7 +19,7 @@ header {
   margin-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 0px;
 }
 
@@ -28,7 +28,6 @@ nav {
   justify-content: right;
   align-items: center;
   gap: 16px;
-  padding: 100px;
   margin: 0px;
   
   }
@@ -138,6 +137,12 @@ justify-content: center;
 
 }
 
+.turn .lemon p {
+  color: #05FF00;
+  margin-left: 16px;
+  
+  }
+
 .turn p {
   font-size: 90px;
   color: #FF007A;
@@ -146,6 +151,7 @@ justify-content: center;
   text-align: center;
   margin-top: -10px;
   margin-bottom: -10px;
+  margin-left: 16px;
 }
 
 .services {
@@ -237,10 +243,10 @@ margin: 50px;
 .portfolio {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   background-color: #FF007A;
   height: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .portfolio p {
@@ -255,6 +261,19 @@ margin: 10px;
 .portfolio img {
   width: 45px;
   height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.portfolio .right {
+  display: flex;
+  text-align: right;
+}
+
+.portfolio .center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact {
@@ -341,6 +360,8 @@ font-weight: bold;
     font-weight: 600;
   }
 
+
+
   footer {
     display: flex;
     flex-direction: column;
@@ -351,6 +372,7 @@ font-weight: bold;
   footer .logo {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   footer .logo .displayA {
@@ -360,10 +382,10 @@ font-weight: bold;
 
   }
 
-footer img {
-    width: 45px;
+footer  .firstrow img {
+    width: 200px;
   }
-
+  
 footer button {
   display: inline-flex;
   padding: 16px 32px;
@@ -404,14 +426,6 @@ footer ul {
   color: aliceblue;
 }
 
-.carrousel {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.carrousel img {
-  width: 100%;
-}
 
 footer .firstrow {
   display: flex;
@@ -425,7 +439,38 @@ footer .secondrow {
   justify-content: right;
 }
 
+footer .social img {
+  width: 25px;
+}
+
 footer .secondrow p {
   color: aliceblue;
   font-size: 16px;
+}
+
+
+.carrousel {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.carrousel img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  background: linear-gradient(180deg, #FF007A 0%, rgba(217, 217, 217, 0.00) 100%);
+  background-blend-mode: multiply;
+}
+
+::-webkit-scrollbar-thumb {
+  
+  background-color: #05FF00;
+  border-radius: 16px;
+  border: solid 1px #FF007A;
+  background-image: url(../images/ghost_logo_clear.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
