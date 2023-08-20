@@ -12,9 +12,15 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #FF007A;
-  padding: 30px;
-  
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 nav {
@@ -23,8 +29,15 @@ nav {
   align-items: center;
   gap: 16px;
   padding: 100px;
+  margin: 0px;
   
   }
+
+nav img {
+  display: flex;
+  padding: 0px;
+}
+
 
 nav a {
   color: aliceblue;
@@ -40,15 +53,31 @@ nav a:hover {
 
 
 .main {
+  margin-top: 0px;
   display: flex;
   background-color: #FF007A;
   flex-direction: column;
- 
   
+ 
+}
+
+.main .reshape {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.main .reshape img {
+  width: 45px;
+  height: 45px;
 }
 
 .main .display {
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  
 }
 
 .main p {
@@ -80,7 +109,6 @@ nav a:hover {
   background-size: 100%;
   justify-content: center;
   align-items: center;
-
   text-align: center;
   height: 571px;
   margin: 0px;
@@ -135,6 +163,7 @@ color: aliceblue;
 font-size: 60px;
 text-align: left;
 line-height: 50px;
+margin-right: 40px;
 }
 
 
@@ -148,11 +177,17 @@ line-height: 50px;
   gap: 10px;
   flex-shrink: 0;
   border-radius: 16px;
-  border: 1px solid #FF007A;
+  border: 2px solid #FF007A;
   background: rgba(46, 47, 47, 0.00);
   color: var(--white, #FFF);
   font-weight: bold;
 }
+
+
+
+
+
+
 
 .services .display {
   display: flex;
@@ -308,7 +343,7 @@ font-weight: bold;
 
   footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 30px;
     justify-content: space-between;
   }
@@ -367,4 +402,30 @@ footer .social {
 
 footer ul {
   color: aliceblue;
+}
+
+.carrousel {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.carrousel img {
+  width: 100%;
+}
+
+footer .firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer .secondrow {
+  display: flex;
+  justify-content: right;
+}
+
+footer .secondrow p {
+  color: aliceblue;
+  font-size: 16px;
 }
