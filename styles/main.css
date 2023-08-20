@@ -74,9 +74,11 @@ header img {
   background-color: #FF007A;
   background-image: url(../images/main\ image.png);
   background-repeat: no-repeat;
-  background-size:100%;
   justify-content: right;
   text-align: end;
+  height: 571px;
+  margin: 0px;
+  margin-bottom: 0px;
 }
 
 .spot p {
@@ -90,4 +92,113 @@ header img {
 
 .spot .lemon p {
   color: #05FF00;
+}
+
+.turn {
+display: flex;
+background-color: black;
+margin: 0px;
+padding: 0px;
+justify-content: center;
+
+}
+
+.turn p {
+  font-size: 90px;
+  color: #FF007A;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.services p {
+font-weight: 600;
+color: aliceblue;
+font-size: 60px;
+text-align: left;
+line-height: 50px;
+}
+
+
+.services button {
+  display: flex;
+  width: 446px;
+  height: 60px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #FF007A;
+  background: rgba(46, 47, 47, 0.00);
+  color: var(--white, #FFF);
+}
+
+.services .display {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about {
+  width: 1325px;
+  height: 467px;
+  flex-shrink: 0;
+  border-radius: 0px 180px;
+  border: 2px solid #FF007A;
+  background: #000;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about p {
+  color: #FFF;
+}
+
+.about .tittle {
+color: #FFF;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 62px; /* 124% */
+letter-spacing: 15.5px;
+text-transform: uppercase;
+align-items: center;
+text-align: center;
+}
+
+.about .text {
+color: #D3D3DA;
+text-align: justify;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+letter-spacing: 2.4px;
+margin: 50px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  background-color: #FF007A;
+  height: auto;
+}
+
+.portfolio p {
+color: aliceblue;
+font-size: 60px;
+font-weight: 600;
+
 }
