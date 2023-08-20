@@ -142,6 +142,7 @@ line-height: 50px;
   border: 1px solid #FF007A;
   background: rgba(46, 47, 47, 0.00);
   color: var(--white, #FFF);
+  font-weight: bold;
 }
 
 .services .display {
@@ -191,14 +192,103 @@ margin: 50px;
 
 .portfolio {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   background-color: #FF007A;
   height: auto;
+  align-items: center;
 }
 
 .portfolio p {
 color: aliceblue;
 font-size: 60px;
 font-weight: 600;
+letter-spacing: 2.4px;
+text-transform: uppercase;
 
 }
+
+.portfolio img {
+  width: 45px;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #FF007A;
+}
+.contact p {
+  font-size: 60px;
+  font-weight: 600;
+  color: aliceblue;
+
+}
+
+.contact button {
+display: flex;
+width: 300px;
+height: 59px;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #05FF00;
+border: transparent;
+color: #FF007A;
+font-size: large;
+font-weight: bold;
+}
+
+.contact .display {
+  display: flex;
+  flex-direction:row ;
+  gap: 10px;
+}
+
+.contact .b {
+  display: flex;
+  width: 300px;
+  height: 59px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: aliceblue;
+  border: transparent;
+  color: #FF007A;
+  font-size: large;
+  font-weight: bold;
+  }
+
+  .build {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .build .display {
+    flex-direction: column;
+  }
+
+  .build .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .build p {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+  
+  }
