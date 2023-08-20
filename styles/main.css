@@ -6,7 +6,7 @@ body {
       margin: 0px;
       height: auto;
       justify-content: center;
-      margin: 0px;
+      
     } 
 
 
@@ -43,7 +43,12 @@ nav a:hover {
   display: flex;
   background-color: #FF007A;
   flex-direction: column;
+ 
   
+}
+
+.main .display {
+  margin: 30px;
 }
 
 .main p {
@@ -72,8 +77,11 @@ nav a:hover {
   background-color: #FF007A;
   background-image: url(../images/main\ image.png);
   background-repeat: no-repeat;
-  justify-content: right;
-  text-align: end;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
   height: 571px;
   margin: 0px;
   margin-bottom: 0px;
@@ -302,6 +310,7 @@ font-weight: bold;
     display: flex;
     flex-direction: row;
     margin: 30px;
+    justify-content: space-between;
   }
 
   footer .logo {
@@ -311,7 +320,7 @@ font-weight: bold;
 
   footer .logo .displayA {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 
   }
@@ -345,4 +354,17 @@ footer button {
   margin-top: 10px;
   border: transparent;
 
+}
+
+footer p {
+  color: aliceblue;
+}
+
+footer .social {
+  display: flex;
+  gap: 10px;
+}
+
+footer ul {
+  color: aliceblue;
 }
