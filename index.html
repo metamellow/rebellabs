@@ -48,10 +48,10 @@
  <header> 
 <img src="images/ghost_header.svg">
 <nav> 
-<a> about </a>
-<a> service </a>
+<a href="#about"> about </a>
+<a href="#services"> service </a>
 <a> collections </a>
-<a> contact </a>
+<a href="#contact"> contact </a>
 </nav>
 </header>
 
@@ -107,7 +107,7 @@
 
 </div>
 
-<div class="services"> 
+<div class="services" id="services"> 
 <div> 
   <p> our <br> services </p>
 </div>
@@ -132,7 +132,7 @@
 
 </div>
 
-<div class="about">
+<div class="about" id="about">
   <div class="tittle"> <p>About</p> </div>
 <div class="text">
     <p> 
@@ -170,7 +170,7 @@
   <img src="images/texte.png">
 </div>
 
-<div class="contact">
+<div class="contact" id="contact">
 <div> <p> “let's talk about your future” </p></div>
 <div class="display"> 
 <button id="openModalBtn" >talks now</button>
@@ -180,11 +180,14 @@
       <span class="close">&times;</span>
 <div> 
   
-  <form action="mailto:matheus.merp@gmail.com" method="post" enctype="text/plain">
+  <form action="" method="post" enctype="text/plain">
     <!-- Categoria: Básico -->
+    <div class="greenghost">
+    <img src="images/ghost_forms.png">
+    </div>
+    
     <div class="form-group">
       <div>
-        <img src="images/ghost_header.svg">
       <p>Tell about your project</p>
       </div>
       
@@ -269,6 +272,7 @@
 
 <div class="checkdisplay">
  
+  <div class="block">
     <label class="checkbox-container">
       <input type="checkbox">
       <span class="checkmark"></span>
@@ -287,18 +291,25 @@
   modulus
 </label>
 
+<label class="checkbox-container">
+  <input type="checkbox">
+  <span class="checkmark"></span>
+  others
+</label>
+</div>
+
 
 </div>
 </div>
 
 <div class="form-group-check"> 
-  <p> tell us about your project </p>
-  <input type="text" placeholder="Enter text..." class="description">
 
+  <div>
+  <p> tell us about your project </p>
+  <textarea id="message" name="userMessage" rows="4" cols="50" placeholder="Enter your message here"></textarea><br><br>
 </div>
 
-
-
+</div>
 
     <div>
     <button type="submit">send</button>
@@ -335,6 +346,12 @@
   </div>
 </div>
 
+
+
+
+
+
+
 <footer>
   
   <div class="firstrow">
@@ -352,9 +369,11 @@
 
 
   <div class="social"> 
-    <img src="images/ghost_header.svg">
-    <img src="images/ghost_header.svg">
-    <img src="images/ghost_header.svg">
+    <a href="">
+    <img src="images/linkedin.svg"></a>
+    <a href="https://twitter.com/Rebel_Labs" target="_blank">
+    <img src="images/twitter.svg"></a>
+    
   </div>
 </div>
 
@@ -369,6 +388,14 @@
   <script src="./scripts/index.js" type="application/javascript"></script>
   <script src="./scripts/modal.js" type="application/javascript"></script>
 </footer>
+
+
+
+
+
+
+
+
 
 </body>
 </html>
