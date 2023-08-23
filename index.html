@@ -1,15 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <link rel="stylesheet" type="text/css" href="./styles/main.css" />
-  <link rel="icon" href="./images/ghost_logo_solid.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="icon" href="./images/ghost_logo_solid.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <title>Rebel Labs - Web3 Devs</title>
+    <title>Rebel Labs - Web3 Devs</title>
     <meta name="title" content="Rebel Labs" />
     <meta
       name="description"
@@ -41,362 +40,300 @@
       property="twitter:image"
       content="https://raw.githubusercontent.com/s0crates-eth/rebellabs/main/images/rebellabs_logo_solid.png"
     />
+  </head>
 
-</head>
+  <body>
+    <header>
+      <img src="images/ghost_header.svg" />
+      <nav>
+        <a href="#about"> about </a>
+        <a href="#services"> service </a>
+        <a href="#contact"> contact </a>
+      </nav>
+    </header>
 
-<body>
- <header> 
-<img src="images/ghost_header.svg">
-<nav> 
-<a href="#about"> about </a>
-<a href="#services"> service </a>
-<a> collections </a>
-<a href="#contact"> contact </a>
-</nav>
-</header>
+    <section class="hero">
+      <div class="hero-item">
+        <p style="margin-left: -7px">reshape</p>
+        <img src="images/reci.png" />
+      </div>
+      <div class="hero-item">
+        <p>your <span class="lemon">world</span></p>
+      </div>
+    </section>
 
-<div class="main">
-    
-  <div class="display">
-    <div class="reshape">
-    <p> reshape </p> <img src="images/reci.png">
-    </div>
-    <div class="tittle">
-    
-    
-    <div>
-    <p>your</p> </div>
-    <div class="lemon">
-    <p>world</p>
-    </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="spot">
-
-<div>
-<p> REBEL.LABS </p>
-</div>
-
-<div class="lemon">
-<p> techno-visionaries </p>
-</div>
-<div> <img src="images/arrow.png"> </div>
-
-</div>
-
-<div class="turn">
-  
-  <div>
-  <p> turn your
-  </div> 
-  
-  <div class="lemon">
-  <p>ideas</p>
-  </div> 
-  
-  <div>
-  <p>into</p>  
-  </div>
-  
-  <div class="lemon">
-  <p>reality </p>
-  </div>
-
-</div>
-
-<div class="services" id="services"> 
-<div> 
-  <p> our <br> services </p>
-</div>
-
-<div class="display"> 
-<button> Art Design </button>
-<button> Tokens - ERC-20 </button>
-<button> NFTs </button>
-<button> Web Design </button>
-
-</div>
-
-<div class="display"> 
-  <button> Comics </button>
-  <button> 3D Art </button>
-  <button> Promo Videos </button>
-  <button> Branding </button>
-  
-  </div>
-  
-
-
-</div>
-
-<div class="about" id="about">
-  <div class="tittle"> <p>About</p> </div>
-<div class="text">
-    <p> 
-      "The mission of Rebel.labs is to empower and propel companies and individuals 
-      on their journey through the web3 universe. Through our expertise in token
-      development, NFTs, and web3 solutions, we are dedicated to providing comprehensive
-       and personalized support for those who are embarking on their adventures in this innovative landscape.
-       We are committed to offering creative, technologically advanced, and tailored solutions, assisting our 
-       clients in standing out and thriving in the decentralized economy."
-    
-  </p>
-</div>
-</div>
-
-<div class="portfolio">
-  
-  <div class="center">
-  <div>
-  <p>
-    portfolio 
-  </p>
-  </div>
-</div>
-
-  <div>
-  <div class="right">
-    <img src="images/arrow.png">
-  </div>
-</div>
-  
-</div>
-
-<!-- inserir uma galeria aqui-->
-<div class="carrousel">
-  <img src="images/texte.png">
-</div>
-
-<div class="contact" id="contact">
-<div> <p> “let's talk about your future” </p></div>
-<div class="display"> 
-<button id="openModalBtn" >talks now</button>
-
-<div id="myModal" class="modal">
-  <div class="modal-content">
-      <span class="close">&times;</span>
-<div> 
-  
-  <form action="" method="post" enctype="text/plain">
-    <!-- Categoria: Básico -->
-    <div class="greenghost">
-    <img src="images/ghost_forms.png">
-    </div>
-    
-    <div class="form-group">
+    <div class="spot">
       <div>
-      <p>Tell about your project</p>
-      </div>
-      
-      <div class="display">
-        <input type="text"   placeholder="name" id="name" name="name" required>
-        <input type="email"  placeholder="email" id="email" name="email" required>
-        <input type="text"  placeholder="project name" id="project" name="project" required>
-        <input type="text"  placeholder="discord" id="discord" name="discord">
-        <input type="text"  placeholder="twitter"id="twitter" name="twitter">
-      </div>
+        <p>REBEL.LABS</p>
       </div>
 
-    <!-- Categoria: Checkbox -->
-    <div class="form-group-check">
-      <div>
-        <p>select what you are planning to build</p>
+      <div class="lemon">
+        <p>techno-visionaries</p>
+      </div>
+      <div><img src="images/arrow.png" /></div>
+    </div>
+
+    <section class="black-background title-ideas">
+      <p>
+        turn your
+        <span class="lemon"> ideas </span>
+        into
+        <span class="lemon"> reality </span>
+      </p>
+    </section>
+
+    <section class="gray-background flex d-column section-item">
+      <div class="title"><h2>About</h2></div>
+      <p class="about-text">
+        "The mission of Rebel.labs is to empower and propel companies and
+        individuals on their journey through the web3 universe. Through our
+        expertise in token development, NFTs, and web3 solutions, we are
+        dedicated to providing comprehensive and personalized support for those
+        who are embarking on their adventures in this innovative landscape. We
+        are committed to offering creative, technologically advanced, and
+        tailored solutions, assisting our clients in standing out and thriving
+        in the decentralized economy."
+      </p>
+    </section>
+
+    <section class="black-background flex d-column section-item">
+      <div class="title">
+        <h2>our services</h2>
       </div>
 
-  <div class="checkdisplay">
-     
-        <label class="checkbox-container">
-          <input type="checkbox">
-          <span class="checkmark"></span>
-          token
-      </label>
-      
-      <label class="checkbox-container">
-        <input type="checkbox">
-        <span class="checkmark"></span>
-        nft
-    </label>
-    
-    <label class="checkbox-container">
-      <input type="checkbox">
-      <span class="checkmark"></span>
-      site
-  </label>
-  
-  <label class="checkbox-container">
-    <input type="checkbox">
-    <span class="checkmark"></span>
-    promo video
-</label>
+      <div class="flex gap-20 justify-center">
+        <div class="flex d-column">
+          <button class="service-item">Art Design</button>
+          <button class="service-item">Tokens - ERC-20</button>
+          <button class="service-item">NFTs</button>
+          <button class="service-item">Web Design</button>
+        </div>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  brand
-</label>
+        <div class="flex d-column">
+          <button class="service-item">Comics</button>
+          <button class="service-item">3D Art</button>
+          <button class="service-item">Promo Videos</button>
+          <button class="service-item">Branding</button>
+        </div>
+      </div>
+    </section>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  comics
-</label>
+    <section class="gray-background flex d-column build-section">
+      <p>we build in</p>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  dapp
-</label>
+      <div class="flex justify-center build-images">
+        <img src="images/eth.png" />
+        <img src="images/poly.png" />
+        <img src="images/modulus.png" />
+      </div>
+    </section>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  ilustration
-</label>
+    <section
+      class="black-background flex justify-center align-center d-column section-item title-future"
+    >
+      <p>
+        let's talk about your
+        <span class="lemon"><strong>future</strong></span
+        >?
+      </p>
+      <button id="openModalBtn" class="talk-button">
+        <span>talk now!</span>
+      </button>
+    </section>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  3D art
-  </label>
- 
-  </div>
-</div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+          <form action="" method="post" enctype="text/plain">
+            <!-- Categoria: Básico -->
+            <div class="greenghost">
+              <img src="images/ghost_forms.png" />
+            </div>
 
-<div class="form-group-check">
-  <div>
-    <p>select which blockchain you intend to build on</p>
-  </div>
+            <div class="form-group">
+              <div>
+                <p>Tell about your project</p>
+              </div>
 
-<div class="checkdisplay">
- 
-  <div class="block">
-    <label class="checkbox-container">
-      <input type="checkbox">
-      <span class="checkmark"></span>
-      ethereum
-  </label>
-  
-  <label class="checkbox-container">
-    <input type="checkbox">
-    <span class="checkmark"></span>
-    polygon
-</label>
+              <div class="display">
+                <input
+                  type="text"
+                  placeholder="name"
+                  id="name"
+                  name="name"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="project name"
+                  id="project"
+                  name="project"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="discord"
+                  id="discord"
+                  name="discord"
+                />
+                <input
+                  type="text"
+                  placeholder="twitter"
+                  id="twitter"
+                  name="twitter"
+                />
+              </div>
+            </div>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  modulus
-</label>
+            <!-- Categoria: Checkbox -->
+            <div class="form-group-check">
+              <div>
+                <p>select what you are planning to build</p>
+              </div>
 
-<label class="checkbox-container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-  others
-</label>
-</div>
+              <div class="checkdisplay">
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  token
+                </label>
 
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  nft
+                </label>
 
-</div>
-</div>
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  site
+                </label>
 
-<div class="form-group-check"> 
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  promo video
+                </label>
 
-  <div>
-  <p> tell us about your project </p>
-  <textarea id="message" name="userMessage" rows="4" cols="50" placeholder="Enter your message here"></textarea><br><br>
-</div>
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  brand
+                </label>
 
-</div>
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  comics
+                </label>
 
-    <div>
-    <button type="submit">send</button>
-  </div>
-</form>
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  dapp
+                </label>
 
-</div>
-  
-  
-  </div>
-</div>
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  ilustration
+                </label>
 
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  3D art
+                </label>
+              </div>
+            </div>
 
+            <div class="form-group-check">
+              <div>
+                <p>select which blockchain you intend to build on</p>
+              </div>
 
+              <div class="checkdisplay">
+                <div class="block">
+                  <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    ethereum
+                  </label>
 
+                  <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    polygon
+                  </label>
 
-<button class="b"> follow us </button>
-</div>
+                  <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    modulus
+                  </label>
 
+                  <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    others
+                  </label>
+                </div>
+              </div>
+            </div>
 
-</div>
+            <div class="form-group-check">
+              <div>
+                <p>tell us about your project</p>
+                <textarea
+                  id="message"
+                  name="userMessage"
+                  rows="4"
+                  cols="50"
+                  placeholder="Enter your message here"
+                ></textarea
+                ><br /><br />
+              </div>
+            </div>
 
-<div class="build">
-  <div class="display">
-    <div>
-      <p> we build in </p>
+            <div>
+              <button type="submit">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <div class="logo">
-        <img src="images/eth.png">
-        <img src="images/poly.png">
-        <img src="images/modulus.png">    
-    </div>
-  </div>
-</div>
+    <footer>
+      <div class="firstrow">
+        <div class="logo">
+          <img src="images/footer_logo.png" />
+        </div>
 
+        <div class="social">
+          <a href=""> <img src="images/linkedin.svg" /></a>
+          <a href="https://twitter.com/Rebel_Labs" target="_blank">
+            <img src="images/twitter.svg"
+          /></a>
+        </div>
+      </div>
 
+      <div class="secondrow">
+        <div>
+          <p>Rebel.labs - Copyright 2023</p>
+        </div>
+      </div>
 
-
-
-
-
-<footer>
-  
-  <div class="firstrow">
-  <div class="logo"> 
-    <img src="images/footer_logo.png">
-  
-    <div class="displayA">
-    
-      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-      
-    <button> register news letter </button>  
-    </div>
-  
-  </div>
-
-
-  <div class="social"> 
-    <a href="">
-    <img src="images/linkedin.svg"></a>
-    <a href="https://twitter.com/Rebel_Labs" target="_blank">
-    <img src="images/twitter.svg"></a>
-    
-  </div>
-</div>
-
-
-  <div class="secondrow">
-    <div>
-    <p> Rebel.labs - Copyright 2023  </p>
-    </div>
-  </div>
-  
-
-  <script src="./scripts/index.js" type="application/javascript"></script>
-  <script src="./scripts/modal.js" type="application/javascript"></script>
-</footer>
-
-
-
-
-
-
-
-
-
-</body>
+      <script src="./scripts/index.js" type="application/javascript"></script>
+      <script src="./scripts/modal.js" type="application/javascript"></script>
+    </footer>
+  </body>
 </html>
-
