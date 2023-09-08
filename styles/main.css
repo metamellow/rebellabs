@@ -739,11 +739,42 @@ input {
     font-size: 32px;
   }
 
+  .build-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .build-images img {
+    width: 30%;
+  }
+
   .service-item  {
    
     font-size: 12px;
   }
 
+  .title-future {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .firstrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .description {
     width: 100%; /* Largura total para dispositivos móveis */
     height: auto; /* Altura automática */
