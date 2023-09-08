@@ -643,4 +643,119 @@ input {
   border-radius: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px; /* Reduzindo o padding vertical */
+  }
+
+  nav {
+    justify-content: center; /* Centralizando os itens do menu */
+    flex-direction: row; /* Alterando a direção do menu */
+    text-align: center; /* Centralizando o texto do menu */
+    gap: 10px; /* Espaçamento entre os itens do menu */
+  }
+
+  nav a {
+    font-size: 14px; /* Tamanho de fonte menor para dispositivos móveis */
+  }
+
+  header img {
+    width: 15%;
+  }
+
+  .hero {
+    margin: 16px;
+    margin-top: 150px;
+  }
+  .hero .hero-item p {
+    font-size: 40px; /* Tamanho de fonte menor para dispositivos móveis */
+    letter-spacing: 16px; /* Espaçamento entre letras menor para dispositivos móveis */
+  }
+  .spot {
+    margin: ;
+    background: none;
+    margin: 16px;
+  }
+  .spot p {
+    font-size: 28px; /* Tamanho de fonte menor para dispositivos móveis */
+    letter-spacing: 16px; /* Espaçamento entre letras menor para dispositivos móveis */
+  }
+
+  .title-ideas {
+    font-size: 60px; /* Tamanho de fonte menor para dispositivos móveis */
+    letter-spacing: 10px; /* Espaçamento entre letras menor para dispositivos móveis */
+  }
+
+  .spot .lemon p {
+    font-size: 16px;
+  }
+
+  .spot img {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 40px; /* Tamanho de fonte menor para dispositivos móveis */
+    letter-spacing: 10px; /* Espaçamento entre letras menor para dispositivos móveis */
+  }
+
+  .about-text {
+    font-size: 18px; /* Tamanho de fonte menor para dispositivos móveis */
+    letter-spacing: 1px; /* Espaçamento entre letras menor para dispositivos móveis */
+    margin: 0 20px; /* Margem menor para dispositivos móveis */
+  }
+
+  .service-item {
+    width: 100%; /* Largura total para dispositivos móveis */
+    font-size: 16px; /* Tamanho de fonte menor para dispositivos móveis */
+    margin: 10px 0;
+  }
+
+  .build-section {
+    font-size: 24px; /* Tamanho de fonte menor para dispositivos móveis */
+    padding: 60px 0; /* Espaçamento menor para dispositivos móveis */
+  }
+
+  .title-future {
+    font-size: 48px; /* Tamanho de fonte menor para dispositivos móveis */
+  }
+
+  .contact p {
+    font-size: 36px; /* Tamanho de fonte menor para dispositivos móveis */
+  }
+
+  .contact button {
+    width: 100%; /* Largura total para dispositivos móveis */
+    font-size: 16px; /* Tamanho de fonte menor para dispositivos móveis */
+    margin: 10px 0;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .service-item  {
+   
+    font-size: 12px;
+  }
+
+  .description {
+    width: 100%; /* Largura total para dispositivos móveis */
+    height: auto; /* Altura automática */
+  }
+
+  form button {
+    width: 100%; /* Largura total para dispositivos móveis */
+  }
+
+  textarea {
+    width: 100%; /* Largura total para dispositivos móveis */
+  }
+}
+
 
