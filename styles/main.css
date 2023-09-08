@@ -467,6 +467,7 @@ border-radius: 40px;
   color: aliceblue;
   margin-left: 30px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .form-group img {
   width: 92px;
@@ -553,12 +554,12 @@ border-radius: 40px;
 .form-group-check .checkdisplay {
   display: flex;
   color: aliceblue;
-  gap: 10px;
+  gap: 16px;
   align-items: start;
   margin: 30px;
   margin-top: 16px;
   margin-bottom: 30px;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .form-group-check .checkbox-container {
@@ -571,6 +572,7 @@ border-radius: 40px;
   color: #05ff00;
   font-size: 32px;
   margin: 30px;
+  font-weight: 600;
 }
 
 .description {
@@ -586,12 +588,13 @@ form {
   flex-direction: column;
   background-color: #0c0d0e;
   border-radius: 16px;
+  justify-content: center;
 }
 
 form button {
   width: 350px;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 8px;
   border: 0px;
   background-color: #ff007a;
   color: #05ff00;
@@ -600,7 +603,7 @@ form button {
 
 
 form button:hover {
-  background-color: #05ff00;
+size  background-color: #05ff00;
   color: #ff007a;
 }
 
@@ -626,7 +629,7 @@ input {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  border-radius: 16px;
+  border-radius: 8px;
   padding: 16px;
   border: 0px;
   
@@ -637,6 +640,7 @@ input {
   flex-direction: row;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .displayforms imput {
@@ -795,8 +799,6 @@ input {
     flex-direction: column;
     
   }
-
-  
 
 }
 
