@@ -672,7 +672,6 @@ input {
     letter-spacing: 16px; /* Espaçamento entre letras menor para dispositivos móveis */
   }
   .spot {
-    margin: ;
     background: none;
     margin: 16px;
   }
@@ -781,12 +780,24 @@ input {
   }
 
   form button {
-    width: 100%; /* Largura total para dispositivos móveis */
+    width: 80%; /* Largura total para dispositivos móveis */
   }
 
   textarea {
-    width: 100%; /* Largura total para dispositivos móveis */
+    width: 80%; /* Largura total para dispositivos móveis */
   }
+
+  input {
+    width: 90%;
+  }
+  .checkdisplay {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  
+
 }
 
 
