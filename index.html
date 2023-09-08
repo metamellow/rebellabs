@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
-    <link rel="icon" href="./images/ghost_logo_solid.png" />
+    <link rel="icon" href="./images/ghost_header.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -48,7 +48,7 @@
       <nav>
         <a href="#about"> about </a>
         <a href="#services"> service </a>
-        <a href="#contact"> contact </a>
+        <a href="form.html"> contact </a>
       </nav>
     </header>
 
@@ -82,7 +82,7 @@
       </p>
     </section>
 
-    <section class="gray-background flex d-column section-item">
+    <section class="gray-background flex d-column section-item" id="about">
       <div class="title"><h2>About</h2></div>
       <p class="about-text">
         "The mission of Rebel.labs is to empower and propel companies and
@@ -96,12 +96,12 @@
       </p>
     </section>
 
-    <section class="black-background flex d-column section-item">
+    <section class="black-background flex d-column section-item" id="services">
       <div class="title">
         <h2>our services</h2>
       </div>
 
-      <div class="flex gap-20 justify-center">
+      <div class="flex gap-20 justify-center" >
         <div class="flex d-column">
           <button class="service-item">Art Design</button>
           <button class="service-item">Tokens - ERC-20</button>
@@ -136,181 +136,13 @@
         <span class="lemon"><strong>future</strong></span
         >?
       </p>
+      <a href="form.html">
       <button id="openModalBtn" class="talk-button">
         <span>talk now!</span>
-      </button>
+      </button></a>
     </section>
 
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <div>
-          <form action="" method="post" enctype="text/plain">
-            <!-- Categoria: Básico -->
-            <div class="greenghost">
-              <img src="images/ghost_forms.png" />
-            </div>
-
-            <div class="form-group">
-              <div>
-                <p>Tell about your project</p>
-              </div>
-
-              <div class="display">
-                <input
-                  type="text"
-                  placeholder="name"
-                  id="name"
-                  name="name"
-                  required
-                />
-                <input
-                  type="email"
-                  placeholder="email"
-                  id="email"
-                  name="email"
-                  required
-                />
-                <input
-                  type="text"
-                  placeholder="project name"
-                  id="project"
-                  name="project"
-                  required
-                />
-                <input
-                  type="text"
-                  placeholder="discord"
-                  id="discord"
-                  name="discord"
-                />
-                <input
-                  type="text"
-                  placeholder="twitter"
-                  id="twitter"
-                  name="twitter"
-                />
-              </div>
-            </div>
-
-            <!-- Categoria: Checkbox -->
-            <div class="form-group-check">
-              <div>
-                <p>select what you are planning to build</p>
-              </div>
-
-              <div class="checkdisplay">
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  token
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  nft
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  site
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  promo video
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  brand
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  comics
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  dapp
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  ilustration
-                </label>
-
-                <label class="checkbox-container">
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                  3D art
-                </label>
-              </div>
-            </div>
-
-            <div class="form-group-check">
-              <div>
-                <p>select which blockchain you intend to build on</p>
-              </div>
-
-              <div class="checkdisplay">
-                <div class="block">
-                  <label class="checkbox-container">
-                    <input type="checkbox" />
-                    <span class="checkmark"></span>
-                    ethereum
-                  </label>
-
-                  <label class="checkbox-container">
-                    <input type="checkbox" />
-                    <span class="checkmark"></span>
-                    polygon
-                  </label>
-
-                  <label class="checkbox-container">
-                    <input type="checkbox" />
-                    <span class="checkmark"></span>
-                    modulus
-                  </label>
-
-                  <label class="checkbox-container">
-                    <input type="checkbox" />
-                    <span class="checkmark"></span>
-                    others
-                  </label>
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group-check">
-              <div>
-                <p>tell us about your project</p>
-                <textarea
-                  id="message"
-                  name="userMessage"
-                  rows="4"
-                  cols="50"
-                  placeholder="Enter your message here"
-                ></textarea
-                ><br /><br />
-              </div>
-            </div>
-
-            <div>
-              <button type="submit">send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+  
 
     <footer>
       <div class="firstrow">
