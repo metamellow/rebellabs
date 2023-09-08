@@ -13,6 +13,9 @@ body {
   height: auto;
   justify-content: center;
   padding: 20px 40px 40px;
+  background-image: url(../images/rebelmain.gif);
+  background-position: fixed;
+  background-size:cover;
 }
 
 html {
@@ -82,7 +85,6 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   background-color: #ff007a;
-  background-image: url(../images/rebelmain.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   justify-content: center;
