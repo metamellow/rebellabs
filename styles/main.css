@@ -599,18 +599,21 @@ form button {
   background-color: #ff007a;
   color: #05ff00;
   margin: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 80px;
 }
 
 
 form button:hover {
-size  background-color: #05ff00;
+  background-color: #05ff00;
   color: #ff007a;
 }
 
 
 textarea {
   position: relative;
-  width: 80%;
+  width: 95%;
   height: 400px;
   padding: 10px;
   font-size: 16px;
